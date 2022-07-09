@@ -1,0 +1,101 @@
+body{
+    margin: 20px;
+    background-color:hsl(30, 38%, 92%);
+}
+.container{
+    height: 450px;
+    width: 580px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 100px auto;
+    border-radius: 8px;
+    background-color: white;
+}
+#logo{
+    height: 448px;
+    width:270px;
+    margin-right: 25px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.text{
+    text-align: center;
+    height: 410px;
+    margin-bottom: 45px;
+    margin-left: 10px;
+}
+.preview{
+    margin-top: 35px;
+    font-size: 12px;
+    letter-spacing: 6px;
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+}
+.perfum-name{
+    text-align: start;
+    font-family: 'Fraunces', serif;
+    margin-right: 40px;
+    line-height: 1.0;
+}
+.content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: start;
+    font-size: 14px;
+    margin-right: 45px;
+    line-height: 1.6;
+}
+#prices{
+    text-align: start;
+    display: flex;
+}
+.price-main{
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 600;
+    margin-top: 8px;
+}
+.price-discount{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    margin-left: 25px;
+    text-decoration: line-through;
+    margin-top: 21px;
+    font-size: 13px;
+}
+.cart{
+    padding-left: 10px;
+    display: flex;
+    width: 200px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-weight: bolder;
+    font-size: 12px;
+    justify-content: center;
+    padding-top: 14px;
+    border: none;
+    width: 250px;
+}
+.cart:hover{
+    background-color: hwb(158 6% 76%);
+    cursor: pointer;
+}
+.icon-cart{
+    padding-right: 2px;
+    display: flex;
+    justify-items: center;
+    height: 18px;
+    margin-right: 8px;
+}
+.text-cart{
+    margin: 2px;
+    justify-items: center;
+    text-align: center;
+}
